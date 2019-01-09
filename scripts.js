@@ -132,3 +132,6 @@ for (var i = 0; i < incompleteTaskHolder.children.length; i++) {
 for (var i = 0; i < completedTasksHolder.children.length; i++) {
   bindTaskEvents(completedTasksHolder.children[i], taskIncomplete);
 }
+// for (var i = 0; i < completedTasksHolder.children.length; i++) {
+//   bindTaskEvents(completedTasksHolder.children[i], taskIncomplete);
+// }
