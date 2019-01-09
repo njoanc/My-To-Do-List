@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+        <title>Todo App</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1> MY TO DO LIST</h1>
+            <p>
+                <label for="new-task">Add Item</label><input id="new-task"
+                    type="text"><button>Add</button>
+            </p>
+
+            <h3>Todo</h3>
+            <ul id="incomplete-tasks">
+                <li><input type="checkbox"><label>Washing dishes</label><input
+                        type="text"><button class="edit">Edit</button><button
+                        class="delete">Delete</button></li>
+                <li class="editMode"><input type="checkbox"><label>Go Shopping</label><input
+                        type="text" value="Go Shopping"><button class="edit">Edit</button><button
+                        class="delete">Delete</button></li>
+
+            </ul>
+
+            <h3>Completed</h3>
+            <ul id="completed-tasks">
+                <li><input type="checkbox" checked><label>Going to school</label><input
+                        type="text"><button class="edit">Edit</button><button
+                        class="delete">Delete</button></li>
+            </ul>
+        </div>
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>
